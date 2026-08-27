@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mxfile host="app.diagrams.net" modified="2026-08-27T07:20:20.4760038Z" agent="Codex" version="24.7.17" type="device">
+  <diagram id="p08" name="08 Pengguna">
+    <mxGraphModel gridSize="10" dx="1420" fold="1" pageScale="1" dy="780" guides="1" page="1" tooltips="1" shadow="0" connect="1" math="0" grid="1" arrows="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p08_lane_actor" value="Admin/Petugas" style="swimlane;horizontal=0;startSize=32;html=1;whiteSpace=wrap;rounded=0;fillColor=#ffffff;swimlaneFillColor=#ffffff;strokeColor=#000000;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="60" width="750" height="2020" as="geometry" />
+        </mxCell>
+        <mxCell id="p08_lane_system" value="Sistem" style="swimlane;horizontal=0;startSize=32;html=1;whiteSpace=wrap;rounded=0;fillColor=#ffffff;swimlaneFillColor=#ffffff;strokeColor=#000000;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="60" width="750" height="2020" as="geometry" />
+        </mxCell>
+        <mxCell id="p08_title" value="Activity Diagram Pengguna" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="8" width="1460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p08_start" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#222222;strokeColor=#222222;" vertex="1" parent="1">
+          <mxGeometry x="360" y="95" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p08_open" value="Admin/Petugas membuka halaman Pengguna" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="125" y="170" width="500" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="p08_display" value="Sistem menampilkan daftar nama, username, role, dan status akun" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="855" y="290" width="540" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="p08_choose" value="Pilih tindakan?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#666666;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="250" y="420" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p08_add" value="Admin/Petugas memasukkan data pengguna baru" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="30" y="620" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p08_addValidate" value="Sistem memvalidasi data pengguna baru" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="750" y="620" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p08_addDecision" value="Data pengguna valid?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#666666;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="838" y="740" width="185" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p08_addSave" value="Sistem menyimpan data pengguna ke basis data" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="740" y="880" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p08_addError" value="Sistem menampilkan pesan kesalahan data pengguna" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="880" width="340" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="p08_addRetry" value="Admin/Petugas memperbaiki data pengguna" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1030" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p08_edit" value="Admin/Petugas memilih dan mengubah data pengguna" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="410" y="620" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p08_editValidate" value="Sistem memvalidasi perubahan data pengguna" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="620" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p08_editDecision" value="Perubahan valid?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#666666;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1218" y="740" width="185" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p08_editSave" value="Sistem menyimpan perubahan data pengguna" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="1030" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p08_editError" value="Sistem menampilkan pesan kesalahan perubahan" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1180" width="340" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="p08_editRetry" value="Admin/Petugas memperbaiki perubahan data pengguna" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1300" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p08_delete" value="Admin/Petugas memilih data pengguna yang akan dihapus" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1450" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p08_deleteSystem" value="Sistem menghapus data pengguna dari basis data" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1450" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p08_view" value="Admin/Petugas melihat data pengguna" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1450" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p08_merge" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1085" y="1610" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p08_refresh" value="Sistem menampilkan daftar pengguna terbaru" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="875" y="1710" width="500" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p08_continue" value="Lanjut mengelola pengguna?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#666666;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="255" y="1835" width="240" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="p08_end" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="359" y="1985" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="p08_end_inner" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#222222;strokeColor=#222222;" vertex="1" parent="1">
+          <mxGeometry x="367" y="1993" width="16" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="p08_edge_120ec44d3af64f9cbffd9b1a81e6cc09" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p08_start" target="p08_open">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p08_edge_c125362b883841c48dad7e0dca6da5fd" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p08_open" target="p08_display">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="264" />
+              <mxPoint x="1125" y="264" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p08_edge_65a58cfc8933427e9f7692dcb91de016" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p08_display" target="p08_choose">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1125" y="396" />
+              <mxPoint x="375" y="396" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p08_edge_e51a07f2a7a147988ae36a97110e2734" value="Tambah" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p08_choose" target="p08_add">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="580" />
+              <mxPoint x="180" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p08_edge_f6a3e8da92a54d4584845523b18bf9ab" value="Ubah" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p08_choose" target="p08_edit">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="580" />
+              <mxPoint x="560" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p08_edge_e38521c437f14fc78cd525fd8b9c778a" value="Hapus" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p08_choose" target="p08_delete">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="540" />
+              <mxPoint x="10" y="1450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p08_edge_d78de2c3b3db480686b8d04a708a3fb3" value="Lihat" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p08_choose" target="p08_view">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1490" y="540" />
+              <mxPoint x="1490" y="1450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p08_edge_a421521587584f56a7f9246462051780" value="Selesai" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p08_choose" target="p08_end">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="540" />
+              <mxPoint x="10" y="1985" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p08_edge_a4df40d7aa5349c4a48786fd1ff7c954" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p08_add" target="p08_addValidate">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="700" />
+              <mxPoint x="10" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p08_edge_a7e098ca5890444bb1d598aaed9efcf1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p08_addValidate" target="p08_addDecision">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p08_edge_e56849baf4494f97a388cece2f1437cb" value="Ya" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p08_addDecision" target="p08_addSave">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p08_edge_054d466cccde4ba79790e93cf740e7ef" value="Tidak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p08_addDecision" target="p08_addError">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="930.5" y="860" />
+              <mxPoint x="1310" y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p08_edge_0336da79c97340458f66172132886f41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p08_addSave" target="p08_merge">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="960" />
+              <mxPoint x="730" y="1610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p08_edge_99bcf47130da41728dd88e008903433c" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p08_addError" target="p08_addRetry">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1310" y="1001" />
+              <mxPoint x="180" y="1001" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p08_edge_e7942c8131c34e2388e088691c6defc6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p08_addRetry" target="p08_add">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="1110" />
+              <mxPoint x="10" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p08_edge_b76443bd6aa240faadd9a23b00a49dd2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p08_edit" target="p08_editValidate">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="700" />
+              <mxPoint x="10" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p08_edge_e0824d54fc404661a36974bbd94dd78f" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p08_editValidate" target="p08_editDecision">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p08_edge_076b9badff8545e7a987171e34698f53" value="Ya" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p08_editDecision" target="p08_editSave">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1490" y="840" />
+              <mxPoint x="1490" y="1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p08_edge_f83dcb7ca71142aa8bd1ea18fd1ae368" value="Tidak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p08_editDecision" target="p08_editError">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1490" y="840" />
+              <mxPoint x="1490" y="1180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p08_edge_fe371cd2bfe6487fba38c08902f71fd3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p08_editSave" target="p08_merge">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1490" y="1110" />
+              <mxPoint x="1490" y="1610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p08_edge_f60c658d0299457e8713eccb6c4f5cad" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p08_editError" target="p08_editRetry">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="930" y="1286" />
+              <mxPoint x="560" y="1286" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p08_edge_1be7032f8ab54ee2b923651f14667c01" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p08_editRetry" target="p08_edit">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1490" y="1380" />
+              <mxPoint x="1490" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p08_edge_62edbe04a4c540848821c75f5ecfeded" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p08_delete" target="p08_deleteSystem">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1490" y="1530" />
+              <mxPoint x="1490" y="1450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p08_edge_be0458af97164e69914cc9d18e3f6431" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p08_deleteSystem" target="p08_merge">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="930" y="1570" />
+              <mxPoint x="1125" y="1570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p08_edge_841b564c0d34435c9a9f43603ec9fc3e" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p08_view" target="p08_merge">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="1570" />
+              <mxPoint x="1125" y="1570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p08_edge_980a00108acf4d47a9d5e286fb7f68be" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p08_merge" target="p08_refresh">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p08_edge_ed2b2bd710a1482da43b6b4fee4faeeb" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p08_refresh" target="p08_continue">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1125" y="1812.5" />
+              <mxPoint x="375" y="1812.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p08_edge_3f035167bf9a4e3998b181eaf9d77904" value="Ya" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p08_continue" target="p08_choose">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="1940" />
+              <mxPoint x="10" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p08_edge_7ca9128ade8e4644a7e1c7f9a7718ef4" value="Tidak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p08_continue" target="p08_end">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

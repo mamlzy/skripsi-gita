@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mxfile host="app.diagrams.net" modified="2026-08-27T07:20:20.4760038Z" agent="Codex" version="24.7.17" type="device">
+  <diagram id="p03" name="03 Data Pajak Admin-Petugas">
+    <mxGraphModel gridSize="10" dx="1420" fold="1" pageScale="1" dy="780" guides="1" page="1" tooltips="1" shadow="0" connect="1" math="0" grid="1" arrows="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p03_lane_actor" value="Admin/Petugas" style="swimlane;horizontal=0;startSize=32;html=1;whiteSpace=wrap;rounded=0;fillColor=#ffffff;swimlaneFillColor=#ffffff;strokeColor=#000000;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="60" width="750" height="2370" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_lane_system" value="Sistem" style="swimlane;horizontal=0;startSize=32;html=1;whiteSpace=wrap;rounded=0;fillColor=#ffffff;swimlaneFillColor=#ffffff;strokeColor=#000000;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="60" width="750" height="2370" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_title" value="Activity Diagram Kelola Data Pajak Admin / Petugas" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="8" width="1460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_start" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#222222;strokeColor=#222222;" vertex="1" parent="1">
+          <mxGeometry x="360" y="95" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_open" value="Admin/Petugas membuka halaman Data Pajak" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="125" y="170" width="500" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_display" value="Sistem menampilkan tabel data kendaraan dan pembayaran pajak" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="855" y="290" width="540" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_choose" value="Pilih tindakan?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#666666;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="255" y="420" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_search" value="Admin/Petugas mencari atau menyaring data pajak" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="30" y="600" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_filter" value="Sistem menerapkan pencarian/penyaringan data" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="740" y="600" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_filtered" value="Sistem menampilkan hasil penyaringan" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="720" y="730" width="420" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_view" value="Admin/Petugas melihat data pajak" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="410" y="600" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_add" value="Admin/Petugas memasukkan data pajak baru" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="30" y="900" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_addValidate" value="Sistem memvalidasi data pajak baru" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="750" y="900" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_addDecision" value="Data lengkap dan valid?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#666666;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="838" y="1020" width="185" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_addSave" value="Sistem menyimpan data pajak ke MySQL" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1170" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_addError" value="Sistem menampilkan pesan kesalahan data" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="1170" width="340" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_addRetry" value="Admin/Petugas memperbaiki data pajak baru" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1320" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_edit" value="Admin/Petugas memilih dan mengubah data pajak" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="410" y="900" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_editValidate" value="Sistem memvalidasi perubahan data pajak" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="900" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_editDecision" value="Perubahan valid?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#666666;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1218" y="1020" width="185" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_editSave" value="Sistem menyimpan perubahan ke MySQL" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="1320" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_editError" value="Sistem menampilkan pesan kesalahan perubahan" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1450" width="340" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_editRetry" value="Admin/Petugas memperbaiki perubahan data pajak" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1570" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_delete" value="Admin/Petugas memilih data pajak yang akan dihapus" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="195" y="1740" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_deleteSystem" value="Sistem menghapus data pajak dari MySQL" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="905" y="1850" width="440" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_merge" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1085" y="1970" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_refresh" value="Sistem menampilkan daftar data pajak terbaru" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="875" y="2070" width="500" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_continue" value="Lanjut mengelola data?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#666666;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="265" y="2195" width="220" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_end" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="359" y="2350" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_end_inner" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#222222;strokeColor=#222222;" vertex="1" parent="1">
+          <mxGeometry x="367" y="2358" width="16" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_edge_45459e2928114828a8c4a296cd86ab82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p03_start" target="p03_open">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_edge_09ea5aad569f47c58d6e12629fed278a" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p03_open" target="p03_display">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="264" />
+              <mxPoint x="1125" y="264" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p03_edge_2871bdd49de84ed49692cbee51ed5a7e" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p03_display" target="p03_choose">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1125" y="396" />
+              <mxPoint x="375" y="396" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p03_edge_9414215d4f4e4511b0c9c05fd16187aa" value="Cari/Saring" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p03_choose" target="p03_search">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="570" />
+              <mxPoint x="180" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p03_edge_f42d44fce6594cb99d042994dc6325fa" value="Lihat" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p03_choose" target="p03_view">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="570" />
+              <mxPoint x="560" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p03_edge_813af99dfda749c6a230d583d7c8a005" value="Tambah" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p03_choose" target="p03_add">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="720" />
+              <mxPoint x="180" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p03_edge_0b407671c5ee428ab98c37ebfc5050a4" value="Ubah" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p03_choose" target="p03_edit">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="720" />
+              <mxPoint x="560" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p03_edge_c004232dddc84d11a4965dc0ea7ffcf2" value="Hapus" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p03_choose" target="p03_delete">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_edge_acef188ed64d4ca6bc166592e65cf14b" value="Selesai" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p03_choose" target="p03_end">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="540" />
+              <mxPoint x="10" y="2350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p03_edge_de55ed86393346e0a559dd5393f06117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p03_search" target="p03_filter">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="680" />
+              <mxPoint x="10" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p03_edge_5c34f2854d834df5af997c46ca6c6b91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p03_filter" target="p03_filtered">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_edge_188938ed4a084ef6bfcecdf7e4a373ad" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p03_filtered" target="p03_merge">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="810" />
+              <mxPoint x="730" y="1970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p03_edge_50f3b023cf6242df938821485965cf61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p03_view" target="p03_merge">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="680" />
+              <mxPoint x="10" y="1970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p03_edge_e41cc7ba8a29494b816bd8610b5e9114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p03_add" target="p03_addValidate">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="980" />
+              <mxPoint x="10" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p03_edge_8b0f4548afa649748de0b98271de729a" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p03_addValidate" target="p03_addDecision">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_edge_56abdf607a614d14a6e767a7aafd4d27" value="Ya" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p03_addDecision" target="p03_addSave">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_edge_f5ef291d2eaf490a95ebcb91ea31ffc7" value="Tidak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p03_addDecision" target="p03_addError">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="930.5" y="1145" />
+              <mxPoint x="1310" y="1145" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p03_edge_2f4688b8c04648688c3bea44500d0159" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p03_addSave" target="p03_merge">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="1250" />
+              <mxPoint x="730" y="1970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p03_edge_f2b85792446b49a7b849b14fd016ff4c" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p03_addError" target="p03_addRetry">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1310" y="1291" />
+              <mxPoint x="180" y="1291" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p03_edge_7e1d2beadbdf480eaabc601751012f99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p03_addRetry" target="p03_add">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="1400" />
+              <mxPoint x="10" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p03_edge_c1716d97907d4daca58ad45a6ba34a65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p03_edit" target="p03_editValidate">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="980" />
+              <mxPoint x="10" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p03_edge_75e1e28b211742f491aff0bf788eabc9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p03_editValidate" target="p03_editDecision">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_edge_2f55cc95cf6842c8aa374c9d5ea9ff21" value="Ya" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p03_editDecision" target="p03_editSave">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1490" y="1120" />
+              <mxPoint x="1490" y="1320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p03_edge_38869afd34474e95a26471c32bd5683c" value="Tidak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p03_editDecision" target="p03_editError">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1490" y="1120" />
+              <mxPoint x="1490" y="1450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p03_edge_caaebafc9eda4504aa9eb5dd27d5160f" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p03_editSave" target="p03_merge">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1490" y="1400" />
+              <mxPoint x="1490" y="1970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p03_edge_3162836bd8694bdc976bee4f53ebbea7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p03_editError" target="p03_editRetry">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="930" y="1556" />
+              <mxPoint x="560" y="1556" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p03_edge_20a8fa146a284f89bfa275ce64c2fbaa" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p03_editRetry" target="p03_edit">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1490" y="1650" />
+              <mxPoint x="1490" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p03_edge_311e3fa725c0443e8687a23acf41f57f" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p03_delete" target="p03_deleteSystem">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="1835" />
+              <mxPoint x="1125" y="1835" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p03_edge_fd85d2c3984d4a6aa39d71bab5f8b610" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p03_deleteSystem" target="p03_merge">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_edge_6fba58a36d82412586a919a66c145555" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p03_merge" target="p03_refresh">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p03_edge_6a168259717d4bfc8e4f47ed03d5adfd" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p03_refresh" target="p03_continue">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1125" y="2172.5" />
+              <mxPoint x="375" y="2172.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p03_edge_a11736326b804b89840cf3abfac45f1e" value="Ya" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p03_continue" target="p03_choose">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="2300" />
+              <mxPoint x="10" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p03_edge_5c59c31f64dd43ffbdade6a6eba18adf" value="Tidak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p03_continue" target="p03_end">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

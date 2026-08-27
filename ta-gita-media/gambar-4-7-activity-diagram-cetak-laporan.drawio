@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mxfile host="app.diagrams.net" modified="2026-08-27T07:20:20.4760038Z" agent="Codex" version="24.7.17" type="device">
+  <diagram id="p06" name="06 Cetak Laporan">
+    <mxGraphModel gridSize="10" dx="1420" fold="1" pageScale="1" dy="780" guides="1" page="1" tooltips="1" shadow="0" connect="1" math="0" grid="1" arrows="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p06_lane_actor" value="Admin/Petugas" style="swimlane;horizontal=0;startSize=32;html=1;whiteSpace=wrap;rounded=0;fillColor=#ffffff;swimlaneFillColor=#ffffff;strokeColor=#000000;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="60" width="750" height="1390" as="geometry" />
+        </mxCell>
+        <mxCell id="p06_lane_system" value="Sistem" style="swimlane;horizontal=0;startSize=32;html=1;whiteSpace=wrap;rounded=0;fillColor=#ffffff;swimlaneFillColor=#ffffff;strokeColor=#000000;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="60" width="750" height="1390" as="geometry" />
+        </mxCell>
+        <mxCell id="p06_title" value="Activity Diagram Cetak Laporan" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="8" width="1460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p06_start" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#222222;strokeColor=#222222;" vertex="1" parent="1">
+          <mxGeometry x="360" y="90" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p06_open" value="Admin/Petugas membuka halaman Cetak Laporan" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="125" y="165" width="500" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="p06_select" value="Admin/Petugas memilih jenis laporan dan periode data" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="95" y="275" width="560" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="p06_retrieve" value="Sistem mengambil data pembayaran pajak dan hasil prediksi" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="865" y="410" width="520" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="p06_dataDecision" value="Data sesuai parameter tersedia?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#666666;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="540" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="p06_dataError" value="Sistem menampilkan pesan data laporan tidak tersedia" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1135" y="690" width="350" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="p06_changeAfterError" value="Admin/Petugas mengubah jenis atau periode laporan" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="125" y="820" width="500" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p06_display" value="Sistem menampilkan data laporan secara terstruktur" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="720" y="690" width="400" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p06_inspect" value="Admin/Petugas memeriksa informasi laporan" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="160" y="945" width="430" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="p06_fitDecision" value="Data laporan sesuai?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#666666;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1065" width="230" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="p06_change" value="Admin/Petugas mengubah jenis atau periode laporan" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1200" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p06_choosePrint" value="Admin/Petugas memilih fungsi Cetak" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="395" y="1200" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p06_print" value="Sistem menghasilkan dan mencetak laporan" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="875" y="1310" width="500" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p06_end" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1109" y="1410" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="p06_end_inner" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#222222;strokeColor=#222222;" vertex="1" parent="1">
+          <mxGeometry x="1117" y="1418" width="16" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="p06_edge_a3e6478730cf46189045e30bf422528b" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p06_start" target="p06_open">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p06_edge_7cbaf2ba33224b229d6abf2176bb6ba8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p06_open" target="p06_select">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p06_edge_1d46080e6d4d4cf081346a509aa20d6b" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p06_select" target="p06_retrieve">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="383.5" />
+              <mxPoint x="1125" y="383.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p06_edge_dd56019849b945f79f004dda52dfe44b" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p06_retrieve" target="p06_dataDecision">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p06_edge_67652a89a64c4be6af592181f45f0e90" value="Ya" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p06_dataDecision" target="p06_display">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1125" y="670" />
+              <mxPoint x="920" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p06_edge_3be72bc10a4d475484c9af6598903221" value="Tidak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p06_dataDecision" target="p06_dataError">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1125" y="670" />
+              <mxPoint x="1310" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p06_edge_5669edbfef8d432691132a619dc1fa42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p06_dataError" target="p06_changeAfterError">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1310" y="801" />
+              <mxPoint x="375" y="801" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p06_edge_cb8fa5877c9348eea0e4821bc5157763" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p06_changeAfterError" target="p06_select">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="900" />
+              <mxPoint x="10" y="275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p06_edge_715f0ded0a0b4331a3a19160e4353308" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p06_display" target="p06_inspect">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1490" y="780" />
+              <mxPoint x="1490" y="945" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p06_edge_a7381d74d9f74346990603ce25ed19cb" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p06_inspect" target="p06_fitDecision">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p06_edge_3a7d6ef3c9a6477c8de3e3566b313894" value="Ya" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p06_fitDecision" target="p06_choosePrint">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="1185" />
+              <mxPoint x="560" y="1185" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p06_edge_7986d53a24024429bfb5b42285aa5fbe" value="Tidak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p06_fitDecision" target="p06_change">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="1185" />
+              <mxPoint x="200" y="1185" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p06_edge_2b774fe09e964e18986cb3428a34bf97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p06_change" target="p06_select">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="1280" />
+              <mxPoint x="10" y="275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p06_edge_e83b0b8d998347abbced24501638e272" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p06_choosePrint" target="p06_print">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="1295" />
+              <mxPoint x="1125" y="1295" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p06_edge_2e4ea70a6cbe486b80d63c805644c971" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p06_print" target="p06_end">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

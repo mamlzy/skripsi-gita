@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mxfile host="app.diagrams.net" modified="2026-08-27T07:20:20.4760038Z" agent="Codex" version="24.7.17" type="device">
+  <diagram id="p10" name="10 Login User">
+    <mxGraphModel gridSize="10" dx="1420" fold="1" pageScale="1" dy="780" guides="1" page="1" tooltips="1" shadow="0" connect="1" math="0" grid="1" arrows="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p10_lane_actor" value="User" style="swimlane;horizontal=0;startSize=32;html=1;whiteSpace=wrap;rounded=0;fillColor=#ffffff;swimlaneFillColor=#ffffff;strokeColor=#000000;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="60" width="750" height="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_lane_system" value="Sistem" style="swimlane;horizontal=0;startSize=32;html=1;whiteSpace=wrap;rounded=0;fillColor=#ffffff;swimlaneFillColor=#ffffff;strokeColor=#000000;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="60" width="750" height="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_title" value="Activity Diagram Login User" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="8" width="1460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_start" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#222222;strokeColor=#222222;" vertex="1" parent="1">
+          <mxGeometry x="360" y="100" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_input" value="User memasukkan username/email dan password" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="95" y="175" width="560" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_click" value="User menekan tombol Login" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="125" y="285" width="500" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_validate" value="Sistem memvalidasi kelengkapan data login" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="855" y="385" width="540" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_complete" value="Input login lengkap?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#666666;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="505" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_check" value="Sistem memeriksa kredensial&lt;br&gt;dan status akun" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="765" y="665" width="350" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_emptyError" value="Sistem menampilkan pesan&lt;br&gt;username/email dan password wajib diisi" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1135" y="665" width="330" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_emptyRetry" value="User mengisi ulang data login" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="20" y="815" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_credentialDecision" value="Kredensial valid&lt;br&gt;dan akun aktif?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#666666;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1023" y="820" width="205" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_createSession" value="Sistem membuat sesi pengguna yang valid" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="765" y="980" width="350" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_credentialError" value="Sistem menampilkan pesan&lt;br&gt;kredensial tidak valid atau akun tidak aktif" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1135" y="980" width="330" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_successRedirect" value="User diarahkan ke Dashboard sesuai hak akses" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="385" y="1140" width="350" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_credentialRetry" value="User mengisi ulang data login" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1140" width="300" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_end" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="524" y="1275" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_end_inner" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#222222;strokeColor=#222222;" vertex="1" parent="1">
+          <mxGeometry x="532" y="1283" width="16" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_edge_8236dab3839f400a9e9c6d37efc98d97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p10_start" target="p10_input">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_edge_854d3e04c8944d1bac1921b8b77d0563" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p10_input" target="p10_click">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_edge_a30888761bb6476391b9e74579a67403" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p10_click" target="p10_validate">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="367" />
+              <mxPoint x="1125" y="367" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p10_edge_31c4dcd133eb4f8b9370c23103f9573b" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p10_validate" target="p10_complete">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_edge_cce93343463f44a786d68996086fda7f" value="Ya" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p10_complete" target="p10_check">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1125" y="635" />
+              <mxPoint x="940" y="635" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p10_edge_36974c831f2647cf86f3b6cf337f42ed" value="Tidak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p10_complete" target="p10_emptyError">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1125" y="635" />
+              <mxPoint x="1300" y="635" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p10_edge_98010e2846ad4bff9265d1e4393b2d17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p10_emptyError" target="p10_emptyRetry">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1300" y="784" />
+              <mxPoint x="170" y="784" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p10_edge_13f87dac4efa4ae4bf1bf8586d83906e" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p10_emptyRetry" target="p10_input">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="895" />
+              <mxPoint x="10" y="175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p10_edge_ab82eda890de45989ef64a5dca6efdb9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p10_check" target="p10_credentialDecision">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="786.5" />
+              <mxPoint x="1125.5" y="786.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p10_edge_124c9df47b384ae48e631469aaac6c09" value="Ya" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p10_credentialDecision" target="p10_createSession">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1125.5" y="955" />
+              <mxPoint x="940" y="955" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p10_edge_2a203eeecb7e4ee4891bb026061646b8" value="Tidak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p10_credentialDecision" target="p10_credentialError">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1125.5" y="955" />
+              <mxPoint x="1300" y="955" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p10_edge_46f2d3fe812e4fb3b2757bea52125a4d" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p10_credentialError" target="p10_credentialRetry">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1300" y="1110" />
+              <mxPoint x="170" y="1110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p10_edge_e95a53511ba04898866e7c28de152836" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p10_credentialRetry" target="p10_input">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="1222" />
+              <mxPoint x="10" y="175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p10_edge_d80ea94cbdeb4f038c1e9782ffd3ece0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p10_createSession" target="p10_successRedirect">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="1101" />
+              <mxPoint x="560" y="1101" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p10_edge_118bee4e1d9040ac808abea609119ef0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p10_successRedirect" target="p10_end">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="1248.5" />
+              <mxPoint x="540" y="1248.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

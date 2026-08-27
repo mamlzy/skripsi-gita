@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mxfile host="app.diagrams.net" modified="2026-08-27T07:20:20.4760038Z" agent="Codex" version="24.7.17" type="device">
+  <diagram id="p14" name="14 Pengaturan User">
+    <mxGraphModel gridSize="10" dx="1420" fold="1" pageScale="1" dy="780" guides="1" page="1" tooltips="1" shadow="0" connect="1" math="0" grid="1" arrows="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p14_lane_actor" value="User" style="swimlane;horizontal=0;startSize=32;html=1;whiteSpace=wrap;rounded=0;fillColor=#ffffff;swimlaneFillColor=#ffffff;strokeColor=#000000;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="60" width="750" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="p14_lane_system" value="Sistem" style="swimlane;horizontal=0;startSize=32;html=1;whiteSpace=wrap;rounded=0;fillColor=#ffffff;swimlaneFillColor=#ffffff;strokeColor=#000000;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="60" width="750" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="p14_title" value="Activity Diagram Pengaturan User" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="8" width="1460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p14_start" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#222222;strokeColor=#222222;" vertex="1" parent="1">
+          <mxGeometry x="360" y="100" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p14_open" value="User membuka halaman Pengaturan" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="125" y="175" width="500" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="p14_display" value="Sistem menampilkan informasi profil dan pengaturan akun" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="865" y="295" width="520" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="p14_edit" value="User mengubah informasi profil dan/atau password" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="105" y="415" width="540" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="p14_validate" value="Sistem memvalidasi perubahan pengaturan" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="875" y="535" width="500" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="p14_decision" value="Data pengaturan valid?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#666666;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="655" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p14_save" value="Sistem menyimpan perubahan ke dalam basis data" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="750" y="810" width="360" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="p14_error" value="Sistem menampilkan informasi kesalahan data" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1135" y="810" width="330" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p14_notify" value="Sistem menampilkan notifikasi perubahan berhasil disimpan" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="775" y="930" width="380" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="p14_retry" value="User memperbaiki data pengaturan" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="125" y="930" width="500" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="p14_end" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="359" y="1045" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="p14_end_inner" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#222222;strokeColor=#222222;" vertex="1" parent="1">
+          <mxGeometry x="367" y="1053" width="16" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="p14_edge_1b1b0199ae404f0581c3be343dd6fa1c" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p14_start" target="p14_open">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p14_edge_3814348ee04d4b63894fab52010f5624" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p14_open" target="p14_display">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="269" />
+              <mxPoint x="1125" y="269" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p14_edge_63155524a7fb4daa9429840e0df29317" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p14_display" target="p14_edit">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1125" y="393" />
+              <mxPoint x="375" y="393" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p14_edge_d8b42b9229324917bf25b5a6a5a16c13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p14_edit" target="p14_validate">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="516" />
+              <mxPoint x="1125" y="516" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p14_edge_688b2fdbc9d144d49530123f80b0a68a" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p14_validate" target="p14_decision">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p14_edge_152403b251b7411eb56831b8cea6875d" value="Ya" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p14_decision" target="p14_save">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1125" y="782.5" />
+              <mxPoint x="930" y="782.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p14_edge_af8bde5003564add96835445dd581dbd" value="Tidak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p14_decision" target="p14_error">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1125" y="782.5" />
+              <mxPoint x="1300" y="782.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p14_edge_439c3008ddd0454a8e4c47cdadd4e4d2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p14_save" target="p14_notify">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="930" y="911" />
+              <mxPoint x="965" y="911" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p14_edge_33fcf5c87750422ea8523f425f8fdf5a" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p14_notify" target="p14_end">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="965" y="1026.5" />
+              <mxPoint x="375" y="1026.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p14_edge_d9a142ce921943b98ccefb2631d0cfed" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p14_error" target="p14_retry">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1300" y="915" />
+              <mxPoint x="375" y="915" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p14_edge_6a120d3bd25a4951a57eac805a10d145" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p14_retry" target="p14_edit">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="1008" />
+              <mxPoint x="10" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
