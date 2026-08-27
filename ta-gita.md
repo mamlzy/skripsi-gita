@@ -253,12 +253,12 @@ Anggieta Aviliani Fadhila
       - [6) Activity Diagram Cetak Laporan](#6-activity-diagram-cetak-laporan)
       - [7) Activity Diagram Laporan](#7-activity-diagram-laporan)
       - [8) Activity Diagram Pengguna](#8-activity-diagram-pengguna)
-      - [9) Activity Diagram Pengaturan](#9-activity-diagram-pengaturan)
+      - [9) Activity Diagram Pengaturan Admin / Petugas](#9-activity-diagram-pengaturan)
       - [10) Activity Diagram Login User](#10-activity-diagram-login-user)
       - [11) Activity Diagram Dashboard User](#11-activity-diagram-dashboard-user)
       - [12) Activity Diagram Data Pajak User](#12-activity-diagram-data-pajak-user)
       - [13) Activity Diagram Model & Prediksi User](#13-activity-diagram-model-and-prediksi-user)
-      - [14) Activity Diagram Pengaturan](#14-activity-diagram-pengaturan)
+      - [14) Activity Diagram Pengaturan User](#14-activity-diagram-pengaturan)
       - [c. Sequence Diagram](#c-sequence-diagram)
       - [1) Sequence Diagram Login Admin / Petugas](#1-sequence-diagram-login-admin-petugas)
       - [2) Sequence Diagram Dashboard Admin / Petugas](#2-sequence-diagram-dashboard-admin-petugas)
@@ -408,12 +408,12 @@ Anggieta Aviliani Fadhila
 - [Gambar 4.7 Activity Diagram Cetak Laporan](#gambar-4-7-activity-diagram-cetak-laporan)
 - [Gambar 4.8 Activity Diagram Laporan](#gambar-4-8-activity-diagram-laporan)
 - [Gambar 4.9 Activity Diagram Pengguna](#gambar-4-9-activity-diagram-pengguna)
-- [Gambar 4.10 Activity Diagram Pengaturan](#gambar-4-10-activity-diagram-pengaturan)
+- [Gambar 4.10 Activity Diagram Pengaturan Admin / Petugas](#gambar-4-10-activity-diagram-pengaturan)
 - [Gambar 4.11 Activity Diagram Login User](#gambar-4-11-activity-diagram-login-user)
 - [Gambar 4.12 Activity Diagram Dashboard User](#gambar-4-12-activity-diagram-dashboard-user)
 - [Gambar 4.13 Activity Diagram Data Pajak User](#gambar-4-13-activity-diagram-data-pajak-user)
 - [Gambar 4.14 Activity Diagram Model & Prediksi User](#gambar-4-14-activity-diagram-model-and-prediksi-user)
-- [Gambar 4.15 Activity Diagram Pengaturan](#gambar-4-15-activity-diagram-pengaturan)
+- [Gambar 4.15 Activity Diagram Pengaturan User](#gambar-4-15-activity-diagram-pengaturan)
 - [Gambar 4.16 Sequence Diagram Login Admin / Petugas](#gambar-4-16-sequence-diagram-login-admin-petugas)
 - [Gambar 4.17 Sequence Diagram Dashboard Admin / Petugas](#gambar-4-17-sequence-diagram-dashboard-admin-petugas)
 - [Gambar 4.18 Sequence Diagram Data Pajak Admin / Petugas](#gambar-4-18-sequence-diagram-data-pajak-admin-petugas)
@@ -1407,7 +1407,7 @@ Skenario Use Case Laporan
 | Prakondisi | Admin/Petugas memiliki sesi yang valid dan data laporan tersedia. |
 | Pemicu | Admin/Petugas membuka halaman Laporan dan memilih periode data yang diinginkan. |
 | Alur utama | 1. Admin/Petugas membuka halaman Laporan.<br>2. Admin/Petugas memilih periode data yang akan ditampilkan.<br>3. Sistem mengambil data sesuai periode yang dipilih.<br>4. Sistem menampilkan data pembayaran pajak dan hasil prediksi secara terstruktur.<br>5. Admin/Petugas memilih fungsi cetak atau unduh untuk menyimpan laporan. |
-| Alur alternatif | 1. Sistem menampilkan laporan ketika data sesuai periode yang dipilih tidak tersedia.<br>2. Sistem tidak menghasilkan laporan apabila proses pengambilan data gagal. |
+| Alur alternatif | 1. Sistem menampilkan pesan ketika data sesuai periode yang dipilih tidak tersedia.<br>2. Sistem tidak menghasilkan laporan apabila proses pengambilan data gagal. |
 | Pascakondisi | Laporan data pajak dan hasil prediksi tersedia serta dapat dicetak atau diunduh oleh Admin/Petugas. |
 
 Sumber: Penulis (2026)
@@ -1558,7 +1558,9 @@ Sumber: Penulis (2026)
 <a id="b-activity-diagram"></a>
 ##### b. Activity Diagram
 
-Activity Diagram sistem prediksi keterlambatan pembayaran pajak menunjukkan urutan aktivitas, proses, dan percabangan keputusan pada setiap fungsi sistem. Penelitian ini menyusun delapan Activity Diagram yang mewakili fungsi utama sistem yang dimiliki admin, yaitu Login, Dashboard, Data Pajak, Import Data, Model dan Prediksi / Cetak Laporan, Pengguna, serta Pengaturan, sedangkan yang dimiliki user, yaitu Login, Dashboard, Data Pajak, Model & Prediksi, dan Pengaturan, yaitu:
+Activity Diagram sistem prediksi keterlambatan pembayaran pajak menunjukkan urutan aktivitas, proses, dan percabangan keputusan pada setiap fungsi sistem. Penelitian ini menyusun empat belas Activity Diagram, yaitu sembilan diagram untuk Admin/Petugas (Login, Dashboard, Data Pajak, Model & Prediksi, Import Data, Cetak Laporan, Laporan, Pengguna, dan Pengaturan) serta lima diagram untuk User (Login, Dashboard, Data Pajak, Model & Prediksi, dan Pengaturan).
+
+Seluruh diagram tersedia dalam satu file sumber yang dapat diedit: [activity-diagrams.drawio](activity-diagrams.drawio).
 
 <a id="1-activity-diagram-login-admin-petugas"></a>
 ##### 1) Activity Diagram Login Admin / Petugas
@@ -1659,15 +1661,15 @@ Activity Diagram Pengguna<br>
 Sumber: Penulis (2026)
 
 <a id="9-activity-diagram-pengaturan"></a>
-##### 9) Activity Diagram Pengaturan
+##### 9) Activity Diagram Pengaturan Admin / Petugas
 
 Activity Diagram Pengaturan menunjukkan proses Admin / Petugas dalam mengelola informasi pengaturan akun pada sistem. Admin / Petugas membuka menu Pengaturan dan sistem menampilkan informasi akun yang tersimpan. Admin / Petugas melihat informasi profil dan mengubah data pengaturan sesuai dengan kebutuhan. Admin / Petugas mengubah informasi seperti nama, alamat email, atau kata sandi pada kolom yang tersedia. Sistem menerima perubahan data dan melakukan validasi terhadap data yang dimasukkan. Sistem menyimpan data yang telah memenuhi proses validasi ke dalam basis data. Sistem menampilkan notifikasi apabila perubahan pengaturan berhasil disimpan. Alur proses Pengaturan ditampilkan pada Gambar 4. 10.
 
-![Gambar 4.10 Activity Diagram Pengaturan](ta-gita-media/gambar-4-10-activity-diagram-pengaturan.png)
+![Gambar 4.10 Activity Diagram Pengaturan Admin / Petugas](ta-gita-media/gambar-4-10-activity-diagram-pengaturan.png)
 
 <a id="gambar-4-10-activity-diagram-pengaturan"></a>
 Gambar 4.10<br>
-Activity Diagram Pengaturan<br>
+Activity Diagram Pengaturan Admin / Petugas<br>
 Sumber: Penulis (2026)
 
 <a id="10-activity-diagram-login-user"></a>
@@ -1719,15 +1721,15 @@ Activity Diagram Model & Prediksi User<br>
 Sumber: Penulis (2026)
 
 <a id="14-activity-diagram-pengaturan"></a>
-##### 14) Activity Diagram Pengaturan
+##### 14) Activity Diagram Pengaturan User
 
-Activity Diagram Pengaturan menunjukkan aktivitas User dalam mengelola pengaturan akun. User membuka menu Pengaturan, sistem menampilkan informasi pengaturan, User mengubah data pengaturan, kemudian sistem memvalidasi dan menyimpan perubahan ke dalam basis data. Alur proses Pengaturan ditampilkan pada Gambar 4. 15.
+Activity Diagram Pengaturan User menunjukkan aktivitas User dalam mengelola pengaturan akun. User membuka menu Pengaturan, sistem menampilkan informasi pengaturan, User mengubah data pengaturan, kemudian sistem memvalidasi dan menyimpan perubahan ke dalam basis data. Alur proses Pengaturan User ditampilkan pada Gambar 4. 15.
 
-![Gambar 4.15 Activity Diagram Pengaturan](ta-gita-media/gambar-4-15-activity-diagram-pengaturan.png)
+![Gambar 4.15 Activity Diagram Pengaturan User](ta-gita-media/gambar-4-15-activity-diagram-pengaturan.png)
 
 <a id="gambar-4-15-activity-diagram-pengaturan"></a>
 Gambar 4.15<br>
-Activity Diagram Pengaturan<br>
+Activity Diagram Pengaturan User<br>
 Sumber: Penulis (2026)
 
 <a id="c-sequence-diagram"></a>
