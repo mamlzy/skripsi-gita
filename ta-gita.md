@@ -376,7 +376,7 @@ Anggieta Aviliani Fadhila
 
 - [Tabel 2.1 Penelitian Relevan](#tabel-2-1-penelitian-relevan)
 - [Tabel 3.1 Waktu Penelitian](#tabel-3-1-waktu-penelitian)
-- [Tabel 4.1 Data Perhitungan Manual Regresi Linear](#tabel-4-1-data-perhitungan-manual-regresi-linear)
+- [Tabel 4.1 Data Perhitungan Manual Evaluasi Model Regresi Linear](#tabel-4-1-data-perhitungan-manual-evaluasi-model-regresi-linear)
 - [Tabel 4.2 Skenario Use Case Login Admin/Petugas](#tabel-4-2-skenario-use-case-login-admin-petugas)
 - [Tabel 4.3 Skenario Use Case Dashboard Admin/Petugas](#tabel-4-3-skenario-use-case-dashboard-admin-petugas)
 - [Tabel 4.4 Skenario Use Case Data Pajak Admin/Petugas](#tabel-4-4-skenario-use-case-data-pajak-admin-petugas)
@@ -1244,40 +1244,23 @@ Persamaan regresi yang telah terbentuk pada tahap pelatihan disimpan dan digunak
 <a id="3-contoh-perhitungan-manual"></a>
 #### 3. Contoh Perhitungan Manual
 
-Berikut disajikan contoh perhitungan manual untuk memperlihatkan cara kerja algoritma regresi linear pada penelitian ini. Data yang digunakan merupakan contoh ilustrasi dengan 6 pasang data lama keterlambatan pembayaran (X = periode sebelumnya, Y = periode berikutnya) dalam satuan hari. Data Perhitungan Manual ditampilkan pada Tabel 4. 1 bertujuan menjelaskan mekanisme rumus regresi, sedangkan hasil akhir model yang sesungguhnya harus dihitung menggunakan seluruh dataset Samsat Depok 1 yang digunakan penulis.
+Berikut disajikan perhitungan manual evaluasi model regresi linear pada penelitian ini. Perhitungan dilakukan menggunakan 200 data uji dengan membandingkan nilai aktual ($Y_i$) dan nilai prediksi ($\hat{Y}_i$). Ringkasan perhitungan manual MAE, MSE, RMSE, dan R² ditampilkan pada Tabel 4. 1.
 
-<a id="tabel-4-1-data-perhitungan-manual-regresi-linear"></a>
+<a id="tabel-4-1-data-perhitungan-manual-evaluasi-model-regresi-linear"></a>
 Tabel 4.1<br>
-Data Perhitungan Manual Regresi Linear
+Data Perhitungan Manual Evaluasi Model Regresi Linear
 
-| No | X (hari) | Y (hari) | Xi − X̄ | Yi − Ȳ | (Xi−X̄)(Yi−Ȳ) | (Xi−X̄)² |
-| --- | --- | --- | --- | --- | --- | --- |
-| 1 | 2 | 3 | -2 | -2.5 | 5 | 4 |
-| 2 | 3 | 4 | -1 | -1.5 | 1.5 | 1 |
-| 3 | 4 | 5 | 0 | -0.5 | 0 | 0 |
-| 4 | 5 | 6 | 1 | 0.5 | 0.5 | 1 |
-| 5 | 6 | 8 | 2 | 2.5 | 5 | 4 |
-| 6 | 4 | 7 | 0 | 1.5 | 0 | 0 |
-| Σ | 24 | 33 | 0 | 0 | 12 | 10 |
+| No | Metrik Evaluasi | Perhitungan Manual | Hasil |
+| --- | --- | --- | --- |
+| 1 | MAE | $\frac{1}{200}\sum_{i=1}^{200}|Y_i-\hat{Y}_i|$ | 33,46 hari |
+| 2 | MSE | $\frac{1}{200}\sum_{i=1}^{200}(Y_i-\hat{Y}_i)^2$ | 5.380,32 hari² |
+| 3 | RMSE | $\sqrt{5.380,32}$ | 73,35 hari |
+| 4 | R² | $1-\frac{\sum(Y_i-\hat{Y}_i)^2}{\sum(Y_i-\bar{Y})^2}$ | 0,8150 atau 81,50% |
 
 
 Sumber: Penulis (2026)
 
-Berdasarkan data pada Tabel 4.1, $\bar{X} = 24/6 = 4, dan \bar{Y} = 33/6 = 5,5$. Nilai koefisien b dan konstanta a dihitung sebagai berikut.
-
-$$
-b = 12 / 10 = 1,2 (1)
-$$
-
-$$
-a = 5,5 - (1,2 \times 4) = 5,5 - 4,8 = 0,7 (2)
-$$
-
-Sehingga persamaan regresi $Y = 0,7 + 1,2X$. Apabila terdapat WP (wajib pajak) baru dengan lama keterlambatan pada periode sebelumnya (X) selama 5 hari, maka perkiraan lama keterlambatan pada periode berikutnya (Y) dihitung sebagai berikut.
-
-$Y = 0,7 + (1,2 \times 5) = 0,7 + 6 = 6,7 ≈ 7 hari$ (3)
-
-Nilai tersebut menunjukkan bahwa WP dengan riwayat keterlambatan 5 hari pada periode sebelumnya diperkirakan akan mengalami keterlambatan sekitar 7 hari pada periode pembayaran berikutnya, sehingga dapat dikategorikan berpotensi terlambat dan perlu diberikan pengingat oleh Samsat Depok 1. Perhitungan MAE, MSE, RMSE, dan R² dilakukan dengan cara yang sama, yaitu membandingkan nilai Y hasil prediksi dengan nilai Y aktual pada data uji, kemudian dimasukkan ke dalam masing-masing rumus evaluasi yang telah diuraikan pada Bab III. Hasil evaluasi menggunakan dataset Samsat Depok 1 yang sesungguhnya disajikan pada Sub-bab 4. 1.
+Berdasarkan Tabel 4.1, nilai MAE sebesar 33,46 hari menunjukkan rata-rata selisih absolut antara nilai aktual dan nilai prediksi. Nilai MSE sebesar 5.380,32 hari² menunjukkan rata-rata kuadrat kesalahan prediksi, sedangkan RMSE sebesar 73,35 hari menunjukkan besar kesalahan prediksi dalam satuan hari. Nilai R² sebesar 0,8150 atau 81,50% menunjukkan bahwa model mampu menjelaskan 81,50% variasi lama keterlambatan pembayaran pada data uji. Dengan demikian, tabel perhitungan manual telah disesuaikan dengan metrik evaluasi yang digunakan dalam penelitian.
 
 <a id="c-pemodelan-perangkat-lunak"></a>
 ### C. Pemodelan Perangkat Lunak
