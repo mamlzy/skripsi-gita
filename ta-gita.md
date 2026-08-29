@@ -2177,7 +2177,7 @@ Sumber: Penulis (2026)
 <a id="i-tampilan-layar-pengaturan"></a>
 ##### i. Tampilan Layar Pengaturan
 
-Tampilan Pengaturan digunakan pengguna untuk mengelola informasi akun dan konfigurasi yang tersedia pada sistem. Pengguna dapat melihat informasi profil yang tersimpan pada sistem, seperti nama dan alamat email. Pengguna dapat mengubah informasi profil sesuai dengan kebutuhan. Pengguna juga dapat memperbarui password melalui kolom yang tersedia pada halaman Pengaturan. Sistem melakukan validasi terhadap data yang dimasukkan sebelum menyimpan perubahan. Sistem menyimpan data yang valid ke dalam basis data dan menampilkan notifikasi setelah proses pembaruan berhasil. Hasil implementasi halaman Pengaturan disajikan pada Gambar 4. 53.
+Tampilan Pengaturan digunakan pengguna untuk mengelola informasi akun dan konfigurasi yang tersedia pada sistem. Pengguna dapat melihat informasi profil yang tersimpan pada sistem, seperti nama dan alamat email. Pengguna dapat mengubah informasi profil sesuai dengan kebutuhan. Pengguna juga dapat memperbarui password melalui kolom yang tersedia pada halaman Pengaturan. Sistem melakukan validasi terhadap data yang dimasukkan sebelum menyimpan perubahan. Sistem menyimpan data yang valid ke dalam basis data dan menampilkan notifikasi setelah proses pembaruan berhasil. Fitur ini membantu pengguna menjaga keamanan akun dan memastikan informasi yang tersimpan tetap sesuai. Hasil implementasi halaman Pengaturan disajikan pada Gambar 4. 53.
 
 ![Gambar 4.53 Tampilan Layar Pengaturan](ta-gita-media/gambar-4-53-tampilan-layar-pengaturan.jpeg)
 
