@@ -2105,7 +2105,7 @@ Sumber: Penulis (2026)
 <a id="c-tampilan-layar-data-pajak-admin-petugas"></a>
 ##### c. Tampilan Layar Data Pajak Admin / Petugas
 
-Tampilan Data Pajak Admin / Petugas menampilkan seluruh data kendaraan dan pembayaran pajak yang telah tersimpan dalam sistem. Data ditampilkan dalam bentuk tabel yang memuat nomor, nama, nomor polisi, jenis/kendaraan, nomor mesin, tanggal bayar, tanggal jatuh tempo, selisih (hari), dan status. Pengguna dapat melakukan pencarian, penyaringan, penambahan, perubahan, dan penghapusan data sesuai hak aksesnya. Hasil implementasi halaman Data Pajak Admin / Petugas disajikan pada Gambar 4. 47.
+Tampilan Data Pajak Admin / Petugas menampilkan seluruh data kendaraan dan pembayaran pajak yang telah tersimpan dalam sistem. Data ditampilkan dalam bentuk tabel yang memuat tanggal bayar, nama, jenis kendaraan, tanggal jatuh tempo, status keterlambatan/pajak hidup, dan nominal pembayaran. Pengguna dapat melakukan pencarian, penyaringan, penambahan, perubahan, dan penghapusan data sesuai hak aksesnya. Halaman ini membantu Admin / Petugas memantau informasi pembayaran pajak secara terpusat dan terstruktur. Pengguna dapat memeriksa kelengkapan data sebelum melakukan perubahan atau penghapusan. Informasi tersebut mendukung proses identifikasi kendaraan yang memiliki tunggakan atau status pajak yang perlu diperbarui. Hasil implementasi halaman Data Pajak Admin / Petugas disajikan pada Gambar 4. 47.
 
 ![Gambar 4.47 Tampilan Layar Data Pajak Admin / Petugas](ta-gita-media/gambar-4-47-tampilan-layar-data-pajak-admin-petugas.png)
 
@@ -2141,7 +2141,7 @@ Sumber: Penulis (2026)
 <a id="f-tampilan-layar-laporan"></a>
 ##### f. Tampilan Layar Laporan
 
-Tampilan Layar Laporan menampilkan informasi data pajak dan hasil prediksi keterlambatan pembayaran pajak dalam bentuk laporan. Admin / Petugas memilih jenis laporan dan menentukan periode data yang diperlukan. Sistem menerima pilihan Admin / Petugas dan mengambil data yang sesuai dari basis data. Sistem mengolah data tersebut dan menampilkan hasil prediksi keterlambatan pembayaran dalam bentuk laporan yang terstruktur. Admin / Petugas memeriksa data dan hasil prediksi yang ditampilkan sebelum melakukan tindakan selanjutnya. Admin / Petugas dapat mencetak atau menyimpan laporan sesuai dengan kebutuhan pengelolaan data. Hasil implementasi halaman Laporan disajikan pada Gambar 4. 50.
+Tampilan Layar Laporan menampilkan informasi data pajak dan hasil prediksi keterlambatan pembayaran pajak dalam bentuk laporan. Admin / Petugas memilih jenis laporan dan menentukan periode data yang diperlukan. Sistem menerima pilihan Admin / Petugas dan mengambil data yang sesuai dari basis data. Sistem mengolah data tersebut dan menampilkan hasil prediksi keterlambatan pembayaran dalam bentuk laporan yang terstruktur. Admin / Petugas memeriksa data dan hasil prediksi yang ditampilkan sebelum melakukan tindakan selanjutnya. Admin / Petugas dapat mencetak atau menyimpan laporan sesuai dengan kebutuhan pengelolaan data. Laporan yang dihasilkan menyajikan informasi secara ringkas dan mudah dipahami sehingga Admin / Petugas dapat melakukan pemantauan pembayaran secara lebih efektif. Data tersebut dapat digunakan sebagai bahan dokumentasi, evaluasi, dan pendukung pengambilan keputusan terkait pengelolaan pajak. Hasil implementasi halaman Laporan disajikan pada Gambar 4. 50.
 
 ![Gambar 4.50 Tampilan Layar Laporan](ta-gita-media/gambar-4-50-tampilan-layar-laporan.png)
 
