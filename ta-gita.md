@@ -2004,7 +2004,7 @@ Sumber: Penulis (2026)
 <a id="i-rancangan-layar-pengaturan"></a>
 ##### i. Rancangan Layar Pengaturan
 
-Rancangan layar Pengaturan menampilkan untuk mengelola konfigurasi akun dan aplikasi sesuai kebutuhan pengguna. Halaman ini mencakup pengaturan profil dan perubahan password. Pengguna dapat memperbarui informasi akun serta mengganti password untuk menjaga keamanan akses sistem. Tujuannya memudahkan Admin / Petugas dalam mengelola pengaturan akun dan sistem. Rancangan layar Pengaturan ditampilkan pada Gambar 4. 39.
+Rancangan layar Pengaturan menampilkan untuk mengelola konfigurasi akun dan aplikasi sesuai kebutuhan pengguna. Halaman ini mencakup pengaturan profil dan perubahan password. Pengguna dapat memperbarui informasi akun serta mengganti password untuk menjaga keamanan akses sistem. Tujuannya memudahkan Admin / Petugas dalam mengelola pengaturan akun dan sistem. Pada halaman ini, pengguna dapat melihat dan mengubah data profil yang tersimpan dalam sistem. Fitur pengaturan profil memuat informasi seperti nama pengguna, username, alamat email, dan peran pengguna. Sistem menyediakan validasi pada setiap perubahan data agar informasi yang disimpan tetap benar dan lengkap. Saat pengguna mengganti password, sistem meminta konfirmasi password lama dan password baru. Proses perubahan password dilakukan dengan memperhatikan ketentuan keamanan untuk mencegah akses oleh pihak yang tidak berwenang. Dengan adanya halaman Pengaturan, pengelolaan akun dapat dilakukan secara mandiri, teratur, dan aman. Rancangan layar Pengaturan ditampilkan pada Gambar 4. 39.
 
 ![Gambar 4.39 Rancangan Pengaturan](ta-gita-media/gambar-4-39-rancangan-pengaturan.jpeg)
 
