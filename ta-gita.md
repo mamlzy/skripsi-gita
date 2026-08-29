@@ -2189,7 +2189,7 @@ Sumber: Penulis (2026)
 <a id="j-tampilan-layar-login-user"></a>
 ##### j. Tampilan Layar Login User
 
-Tampilan Layar Login User menampilkan formulir untuk masuk ke dalam sistem. User memasukkan username atau email dan kata sandi. Sistem memvalidasi data login dan mengarahkan user ke dashboard sesuai hak akses. Hasil implementasi halaman Login User disajikan pada Gambar 4. 54.
+Tampilan Layar Login User menampilkan formulir yang digunakan User untuk masuk dan mengakses sistem. User memasukkan username atau alamat email serta kata sandi pada kolom yang telah disediakan. Setelah data dikirim, sistem melakukan proses validasi untuk memastikan data login sesuai dengan data yang tersimpan. Jika data benar, sistem mengarahkan User ke dashboard sesuai dengan hak akses yang dimiliki. Jika data tidak sesuai, sistem menampilkan pemberitahuan bahwa proses login gagal dan User dapat mengulangi proses login. Sistem memberikan informasi yang jelas mengenai hasil proses login agar User dapat mengetahui tindakan yang perlu dilakukan. Mekanisme autentikasi ini membantu menjaga keamanan sistem dan membatasi akses hanya bagi pengguna yang memiliki akun terdaftar. Hasil implementasi halaman Login User disajikan pada Gambar 4. 54.
 
 ![Gambar 4.54 Tampilan Layar Login User](ta-gita-media/gambar-4-54-tampilan-layar-login-user.png)
 
@@ -2225,7 +2225,7 @@ Sumber: Penulis (2026)
 <a id="m-tampilan-layar-model-and-prediksi-user"></a>
 ##### m. Tampilan Layar Model & Prediksi User
 
-Tampilan Layar Model & Prediksi User menampilkan hasil prediksi keterlambatan pembayaran pajak berdasarkan model regresi linear. User dapat melihat data wajib pajak, hasil prediksi, dan informasi evaluasi model sesuai dengan hak akses. Hasil implementasi halaman Model & Prediksi User disajikan pada Gambar 4. 57.
+Tampilan Layar Model & Prediksi User menampilkan hasil prediksi keterlambatan pembayaran pajak berdasarkan model regresi linear. User dapat melihat data wajib pajak, hasil prediksi, dan informasi evaluasi model sesuai dengan hak akses. Informasi tersebut membantu User memahami kemungkinan keterlambatan yang terjadi pada periode berikutnya. Dengan tampilan ini, User dapat menjadikan hasil prediksi sebagai bahan pemantauan dan evaluasi pembayaran pajak. Hasil implementasi halaman Model & Prediksi User disajikan pada Gambar 4. 57.
 
 ![Gambar 4.57 Tampilan Layar Model & Prediksi User](ta-gita-media/gambar-4-57-tampilan-layar-model-and-prediksi-user.png)
 
