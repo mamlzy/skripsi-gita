@@ -1992,7 +1992,7 @@ Sumber: Penulis (2026)
 <a id="h-rancangan-layar-pengguna"></a>
 ##### h. Rancangan Layar Pengguna
 
-Rancangan layar Pengguna menampilkan untuk mengelola akun dan hak akses pengguna sistem. Halaman ini memuat nama, username, role, status akun, serta fitur tambah, edit, dan hapus pengguna. Role dibedakan menjadi Admin dan Petugas sesuai kewenangan masing-masing. Tujuannya agar pengelolaan pengguna lebih terstruktur dan keamanan sistem tetap terjaga. Rancangan layar Pengguna ditampilkan pada Gambar 4. 38.
+Rancangan layar Pengguna menampilkan untuk mengelola akun dan hak akses pengguna sistem. Halaman ini memuat nama, username, role, status akun, serta fitur tambah, edit, dan hapus pengguna. Role dibedakan menjadi Admin dan Petugas sesuai kewenangan masing-masing. Tujuannya agar pengelolaan pengguna lebih terstruktur dan keamanan sistem tetap terjaga. Admin / Petugas dapat menyesuaikan hak akses berdasarkan kebutuhan tugas masing-masing pengguna. Sistem memastikan setiap akun memiliki peran yang jelas sehingga akses terhadap fitur dapat dikendalikan. Dengan adanya pengaturan ini, pengelolaan akun menjadi lebih mudah, aman, dan sesuai dengan kebutuhan operasional sistem. Rancangan layar Pengguna ditampilkan pada Gambar 4. 38.
 
 ![Gambar 4.38 Rancangan Layar Pengguna](ta-gita-media/gambar-4-38-rancangan-layar-pengguna.jpeg)
 
